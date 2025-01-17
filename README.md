@@ -28,7 +28,7 @@ Certifique-se de ter as seguintes ferramentas instaladas:
 1. **Clone o Repositório**:
 
    ```bash
-   git clone https://github.com/seu-usuario/reviiv-backend.git
+   git clone https://github.com/gabrielnode/reviiv-backend.git
    cd reviiv-backend
    ```
 
