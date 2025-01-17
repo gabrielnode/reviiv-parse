@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "commonjs",
+    "rootDir": ".",
+    "baseUrl": ".",
+    "outDir": "./dist",
+    "esModuleInterop": true,
+    "strict": true,
+    "paths": {
+      "@modules/*": ["./src/modules/*"],
+      "@application/*": ["./src/modules/games/application/*"],
+      "@domain/*": ["./src/modules/games/domain/*"],
+      "@infrastructure/*": ["./src/modules/games/infrastructure/*"],
+      "@factories/*": ["./src/modules/games/factories/*"],
+      "@entrypoints/*": ["./src/modules/games/entrypoints/*"],
+      "@controllers/*": ["./src/modules/games/controllers/*"]
+    }
+  },
+  "include": ["src/**/*", "tests/**/*"]
+}
